@@ -5,4 +5,6 @@ package com.mapbox.mapboxsdk.events;
  */
 public interface MapEvent {
 
+	public MapView getSource();
+
 }
